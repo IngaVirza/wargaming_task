@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.mainContent {
+  font-family: "Roboto";
+}
+
+.mainContent {
+  width: 87.8%;
+  margin: 0 auto;
+}
+.mainContent .Widget_form {
+  width: 514px;
+  height: 740px;
+}
+.mainContent .wrapperSearch {
+  position: relative;
+  display: flex;
+  width: 350px;
+  margin-bottom: 10px;
+}
+.mainContent .wrapperSearch .find_ico {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../../assets/images/Find_ico.png);
+  display: inline-block;
+  position: absolute;
+  top: 11px;
+  left: 11px;
+}
+.mainContent .wrapperSearch .Input_normal {
+  height: 38px;
+  border: 1px solid white;
+  border-radius: 3px;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1), inset 0px 2px 6px 0px rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  color: #5c5e5f;
+  line-height: 1.563;
+  text-align: left;
+  margin-right: 7px;
+  margin-top: 1px;
+  padding-left: 37px;
+  padding-right: 10px;
+  width: 100%;
+  text-overflow: ellipsis;
+}
+.mainContent .wrapperSearch .Input_normal::placeholder {
+  text-overflow: ellipsis;
+}
+.mainContent .wrapperSearch .Input_normal::-webkit-search-cancel-button {
+  position: relative;
+  -webkit-appearance: none;
+  width: 17px;
+  height: 18px;
+  right: -5px;
+  background: url(../../../assets/images/Dell_ico.png);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.mainContent .wrapperSearch .Input_normal:focus {
+  outline: none;
+  color: #373f45;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.1), inset 0px 2px 6px 0px rgba(0, 0, 0, 0.69);
+}
+.mainContent .wrapperSearch .Button_normal {
+  height: 38px;
+  box-shadow: 0px 1px 2px 0px rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  color: #373f45;
+  font-size: 12px;
+  background-image: -moz-linear-gradient(90deg, rgba(177, 181, 183, 0) 0%, #B1B5B7 100%);
+  background-image: -webkit-linear-gradient(90deg, rgba(177, 181, 183, 0) 0%, #B1B5B7 100%);
+  background-image: -ms-linear-gradient(90deg, rgba(177, 181, 183, 0) 0%, #B1B5B7 100%);
+  text-transform: uppercase;
+  padding: 0 15px;
+}
+.mainContent .wrapperSearch .Button_normal:hover {
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4);
+  background-image: -moz-linear-gradient(90deg, #b1b5b7 0%, #9b9fa1 100%);
+  background-image: -webkit-linear-gradient(90deg, #b1b5b7 0%, #9b9fa1 100%);
+  background-image: -ms-linear-gradient(90deg, #b1b5b7 0%, #9b9fa1 100%);
+  color: black;
+}
+.mainContent .wrapperSearch .Button_normal:focus {
+  outline: none;
+}
+
+@media (max-width: 801px) {
+  .mainContent {
+    width: 90%;
+  }
+}

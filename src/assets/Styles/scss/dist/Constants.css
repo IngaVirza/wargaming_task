@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.mainContent {
+  font-family: "Roboto";
+}
+
+h1 {
+  font-family: "Roboto";
+  color: #222325;
+  font-size: 20px;
+}

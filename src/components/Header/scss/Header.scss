@@ -1,0 +1,22 @@
+@import "../../../assets/Styles/scss/Constants.scss";
+
+.header {
+  height: 232px;
+  width: 87.8%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo {
+    width: 196px;
+    height: 134px;
+    opacity: 100%;
+    mix-blend-mode: darken;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+  .text_test {
+    text-align: center;
+    margin-top: 2px;
+}

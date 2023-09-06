@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.mainContent {
+  font-family: "Roboto";
+}
+
+*:focus {
+  outline: none;
+}
+
+.mainContent {
+  width: 87%;
+  margin: 0 auto;
+}
+.mainContent .title_article {
+  font-size: 18px;
+  color: #585858;
+  line-height: 1;
+  text-align: left;
+  padding-bottom: 20px;
+}
+.mainContent .articleText {
+  -webkit-column-width: 50%;
+  -moz-column-width: 50%;
+  column-width: 50%;
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 88px;
+  -moz-column-gap: 88px;
+  column-gap: 88px;
+  -webkit-column-rule: 1px solid #707275;
+  -moz-column-rule: 1px solid #707275;
+  column-rule: 1px solid #707275;
+  font-size: 14px;
+  font-family: #585858;
+  color: #707275;
+  line-height: 21px;
+  margin-top: 5px;
+}
+.mainContent .articleText .titleLi {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 26px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.mainContent .articleText .iconLine {
+  margin: 8px;
+  color: inherit;
+}
+.mainContent .articleText li {
+  line-height: 1.286;
+  text-align: left;
+  text-indent: 5px;
+  list-style-type: none;
+  margin-bottom: 5px;
+  font-weight: normal;
+}
+
+@media (max-width: 800px) {
+  .mainContent {
+    width: 90%;
+  }
+}

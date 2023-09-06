@@ -1,0 +1,99 @@
+@import "../../../assets/Styles/scss/Constants.scss";
+
+*:focus {
+  outline: none;
+}
+
+.mainContent {
+  width: 87.8%;
+  margin: 0 auto;
+ 
+  .selectWrapper {
+    display: none;
+  }
+
+  .listWrapper {
+    display: block;
+
+  .radioButton {
+      margin-right: 15px;
+      font-size: 14px;
+      color: rgba(112, 114, 117, 1);
+    }
+
+    .inputRadio {
+      display: none;
+    }
+
+    .inputRadio:checked+label {
+      padding: 5px 8px;
+      border-radius: 5px;
+      background-color: rgba(112, 114, 117, 1);
+      color: rgba(255, 255, 255, 1);
+    } 
+  }
+}
+
+@media(max-width: 801px) {
+  .mainContent {
+    width: 90%;
+
+    .selectWrapper {
+      display: block;
+      position: relative;
+      width: 172px;
+
+      .menuHamburger {
+        font-size: 14px;
+        color: rgba(112, 114, 117, 1);
+        position: absolute;
+        z-index: 20;
+        left: 10px;
+        top: 5px;
+      }
+
+      .select {
+        font-size: 14px;
+        color: rgba(112, 114, 117, 1);
+        line-height: 28px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 1px;
+        opacity: 1;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.05);
+        height: 30px;
+        width: 100%;
+        padding-left: 30px;
+        text-align: left;
+      }
+
+      .optionsWrapper {
+        padding: 11px 10px 11px 28px;
+        display: flex;
+        flex-direction: column;
+        color: rgba(112, 114, 117, 1);
+        line-height: 25px;
+        font-size: 14px;
+        border: 1px solid rgb(255, 255, 255, 1);
+        opacity: 1;
+        border-radius: 1px;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.05);
+
+        .option {
+          position: relative;
+        }
+
+        .option:hover::before {
+          position: absolute;
+          content: '\02192';
+          left: -20px;
+          font-size: 13px;
+          top: -1px;
+        }
+      }
+    }
+
+    .listWrapper {
+      display: none;
+    }
+  }
+}

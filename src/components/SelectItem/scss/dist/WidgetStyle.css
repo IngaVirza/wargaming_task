@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+.mainContent {
+  font-family: "Roboto";
+}
+
+h1 {
+  font-family: "Roboto";
+  color: #222325;
+  font-size: 20px;
+}
+
+.main {
+  width: auto;
+  height: auto;
+  padding: 30px;
+}
+
+.main_content {
+  width: 100%;
+}
+
+.form-white {
+  margin-top: 10px;
+  margin-left: 0px;
+  width: 514px;
+  height: 740px;
+  background-color: white;
+  padding: 20px;
+}
+
+.form-title {
+  font-size: 20px;
+  line-height: 23.44px;
+  color: #393939;
+  font-weight: 500;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.top-title-select {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #585858;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+.btn-change-result {
+  display: inline-block;
+  height: 30px;
+  width: 162px;
+  background: #519f03;
+  margin-left: 20px;
+  margin-top: 15px;
+  color: white;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 400;
+  border: 0;
+}
+.btn-change-result:hover {
+  background: #5eb803;
+}
+
+.dialog-header {
+  color: #FFFFFF;
+  width: 177px;
+  height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+.opacity-form {
+  position: absolute;
+  width: 474px;
+  height: 511px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background-color: white;
+  opacity: 0;
+}
+.opacity-form:active {
+  opacity: 1;
+}
+
+.form-grey-body {
+  width: 474px;
+  height: 511px;
+  background-color: #373737;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.form-search-title {
+  display: inline-block;
+  position: absolute;
+  width: 41px;
+  height: 16px;
+  font-size: 14px;
+  color: white;
+  font-weight: 400;
+  line-height: 16.41px;
+  margin-left: 20px;
+}
+
+.input-search {
+  display: inline-block;
+  position: absolute;
+  background-color: white;
+  color: #515151;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  width: 150px;
+  height: 20px;
+  margin-left: 68px;
+  border-radius: 0%;
+}
+
+.form-filter-title {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  font-size: 14px;
+  color: white;
+  line-height: 16.41px;
+  font-weight: 400;
+  margin-right: 7px;
+  margin-left: 248px;
+  display: inline-block;
+}
+
+.form-filter {
+  display: inline-block;
+  background-color: #FFFFFF;
+  width: 150px;
+  height: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #515151;
+  margin-right: 20px;
+  margin-left: 304px;
+}
+
+.form-black-bg {
+  width: 434px;
+  height: 266px;
+  background: #141414;
+  margin-left: 20px;
+  margin-top: 23px;
+  overflow: auto;
+}
+
+.result-form {
+  font-size: 14px;
+  color: white;
+}
+
+.selected-end {
+  width: 341px;
+  height: 21px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.result-body {
+  width: 142px;
+  height: 30px;
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.result-body .elements-result {
+  position: absolute;
+  display: inline-block;
+  width: 142px;
+  height: 30px;
+  border: 1px solid #121212;
+  background: #121212;
+  margin-left: 10px;
+}
+.result-body .elements-result-text {
+  position: absolute;
+  display: inline-block;
+  height: 16px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-top: 7px;
+}
+.result-body .sep-and-del {
+  float: right;
+  height: 30px;
+  width: 27px;
+}
+.result-body .result-sep {
+  position: absolute;
+  width: 1px;
+  height: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 25px;
+  top: -30%;
+  margin-left: 105px;
+}
+.result-body .result-del {
+  position: absolute;
+  width: 7px;
+  height: 30px;
+  color: white;
+  font-size: 10px;
+  margin-left: 117px;
+  top: 17%;
+}
+
+.btn-save {
+  display: inline-block;
+  height: 30px;
+  background: #519f03;
+  border: 0;
+  color: white;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 400;
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.btn-save:hover {
+  background: #5eb803;
+}
+
+.btn-cancel {
+  display: inline-block;
+  height: 30px;
+  background: #9f2903;
+  border: 0;
+  color: white;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 400;
+  padding: 10px;
+}
+.btn-cancel:hover {
+  background: #b82f03;
+}
+
+.btn-save + .btn-cancel {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.check {
+  display: inline-block;
+  width: 300px;
+  height: 13;
+  margin-left: 20px;
+}
+
+.checkbox {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  overflow: scroll;
+}
+
+.check-input {
+  display: inline-block;
+  height: 14px;
+  width: 100px;
+  margin-left: 16px;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 14.06px;
+  font-weight: 400px;
+  margin-top: 15px;
+  overflow: scroll;
+}
+
+@media (max-width: 800px) {
+  .mainContent {
+    width: 100%;
+  }
+}
